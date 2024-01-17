@@ -312,6 +312,8 @@ nav a {
     transform: rotate(-19.628deg);
     border-radius: 16px;
     background: #FF5400;
+    margin-top: 38%;
+    margin-left: 21.7rem;
 }
 
 .subscribe-section-image-design-title {
@@ -323,18 +325,19 @@ nav a {
     padding-bottom: 0rem;
 }
 
-.subscribe-section-image-design-offer {
+.small {
     color: #FFF;
     font-size: 32px;
     font-weight: 800;
     text-align: center;
     padding-bottom: 1rem;
-    padding-top: 0rem;
+    padding-top: 1rem;
 }
 
 .subscribe-section-image img {
     position: absolute;
 }
+
 /* footer style */
 footer {
     background: rgba(19, 19, 24, 0.05);
@@ -362,10 +365,12 @@ footer p {
 }
 
 .footer-main {
-    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
     border-width: 60%;
 }
-
+.footer-main hr {
+    background: rgba(19, 19, 24, 0.10);
+    width: 75%;
+}
 .footer-main>img {
     margin-bottom: 3rem;
 }
@@ -379,72 +384,78 @@ footer p {
 .yellow {
     color: #FF5400;
 }
+
 @media screen and (max-width:600px) {
     header {
-        margin: 0;
+        margin: 0px;
+        margin-left: 20px;
     }
+
     .banner-title {
         font-size: 2rem;
         padding-top: 10px;
     }
+
     .input {
         margin: 0rem 2.5rem;
         padding-top: 0.6rem;
         height: 13rem;
     }
+
     .writing-area {
         height: 2.5rem;
         width: 15rem;
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
+
     .banner {
         width: 400px;
     }
+
     .banner-btn {
         width: 18rem;
         margin-right: 0.5rem;
         border-radius: .5rem;
     }
+
     .popular-tour-section {
-        margin: 0.5rem;
-        display: grid;
+        margin: 0rem;
         flex-direction: column;
-        height: 850px;
         width: 400px;
-    }
-    .popular-tour-section-img {
-        padding-top: 1rem;
-        padding-left: 10px;
-        width: 400px;
-        height: 400px;
-    }
-    .popular-tour-section-txt-container {
-        width: 100%;
-    }
-    .popular-tour-section-img-container {
-        height: 400px;
-    }
-    .popular-tour-section-ending-des {
-        padding-right: 4.2rem;
     }
 
-    .popular-tour-section-des {
-        padding-right: 4rem;
+    .popular-tour-section-img {
+        padding-top: 1rem;
+        margin-left: 10px;
+        width: 410px;
+        height: 400px;
+        margin-bottom: -20px;
+    }
+
+    .popular-tour-section-txt-container {
+        width: 100%;
+        margin-left: 38px;
+    }
+    .popular-tour-section-ending-des {
+        padding-right: 1rem;
+    }
+
+    .popular-tour-section-des-list {
+        margin-right:1rem ;
     }
 
     .picture {
         flex-direction: column;
         display: flex;
-        margin-top: 200px;
+        margin-top: 30px;
     }
 
     .picture img {
-        width: 450px;
-        height: 300px;
-        margin-left: px;
+        width: 400px;
+        height: 280px;
         margin-right: 10px;
-        align-items: center;
+        margin-bottom: 10px;
     }
 
     .first-section {
@@ -458,53 +469,92 @@ footer p {
     .third-section {
         margin-left: 1rem;
     }
-    .choose-us-section-title{
+
+    .choose-us-section-title {
         margin-top: 20px;
         margin-right: 15px;
     }
-    .choose-us-section-des{
+
+    .choose-us-section-des {
         margin-bottom: 15px;
         padding-right: 10px;
     }
-    .card1{
+
+    .card1 {
         width: 75%;
         margin-bottom: 20px;
         height: auto;
         margin-right: 0;
     }
-    .card2{
+
+    .card2 {
         width: 75%;
         height: auto;
         margin-top: 20px;
     }
-    .card3{
+
+    .card3 {
         margin-top: 20px;
         height: auto;
-        width: 300px;
+        width: 75%;
     }
-    .card3-section{
+
+    .card3-section {
         margin-left: 10px;
+        flex-direction: column;
     }
-    .dady-div{
+
+    .dady-div {
         margin-right: 10px;
         margin-left: 10px;
         flex-direction: column;
     }
-    .choose-us-section{
+
+    .choose-us-section {
         flex-direction: column;
     }
-    .subscribe-section{
+
+    .subscribe-section {
         flex-direction: column;
+        margin: 15px 14px;
+    }
+
+    .newsletter-section {
+        width: auto;
+    }
+    .newsletter-section-writing-area{
+        width: 80%;
+    }
+    .subscribe-section-image img {
+        width: 410px;
+        margin-top: 15px;
+    }
+    .subscribe-btn{
+        width: 86%;
+    }
+    .subscribe-section-image-design {
+        width: 200.023px;
+        height: 80.268px;
+        margin-left:13rem;
+        margin-bottom: 50px;
+        margin-top: 38%;
+    }
+    .small{
+        font-size: 18px;
+    }
+    .subscribe-section-image-design-title{
+        font-size: 15px;
     }
     footer {
-        width: 100%;
+        width: 95%;
         height: 28rem;
         padding-top: 1rem;
         background: rgba(19, 19, 24, 0.05);
         margin-left: 10px;
     }
+
     .footer-txt {
         margin-left: 40px;
-        
+
     }
 }
